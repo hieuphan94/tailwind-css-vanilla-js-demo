@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/style.css -o build/style.css",
+    "watch": "watch `npm run build` ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.7",
+    "watch": "^0.13.0"
+  }
+}
